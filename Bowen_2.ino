@@ -191,6 +191,8 @@ bool checkPlayerInput(bool ArduinoValue[], bool* pauseGamePointer) {
     }
   }
   //timeout
-  ArduinoValue = PlayerPassTest;                                        //use the original array to store the colors that the player has not pressed before timeout
+  for (int i = 0; i < 4; i ++) {
+    ArduinoValue[i] = PlayerPassTest[i];                                //use the original array to store the colors that the player has not pressed before timeout
+  }
   return false;                                                         //game ends
 }
