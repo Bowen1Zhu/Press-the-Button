@@ -1,7 +1,7 @@
 /* Game Overview
  * Before the game: All LEDs will keep blinking until all four buttons are pressed at the same time to start the game.
  * Rules: During each round of the game, 1-3 colors of the LEDs will be lighted.
- *        Press all the buttons whose colors are not lighted.
+ *        Press all the buttons whose colors are not lighted to advance to the next round.
  *        If the player accidentally hits a lighted color or fails to press all the buttons required within the time limit,
  *        he will be informed of his mistakes and then return to the pregame state.
  * Settings: The potentiometer controls the tempo of the game as well as the blinking rate of the LEDs.
